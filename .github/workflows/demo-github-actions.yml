@@ -1,0 +1,7 @@
+name: demo-github-actions
+on: [push]
+jobs:
+  run-website:
+    runs-on:
+    steps:
+      - uses: npm
